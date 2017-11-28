@@ -1,0 +1,1 @@
+Project to detect outrages in warcraft 3

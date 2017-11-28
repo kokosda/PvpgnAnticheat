@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Clients">
+      <UniqueIdentifier>{97fde26b-169c-4ba8-b3b0-b711bc4de4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clients\Headers">
+      <UniqueIdentifier>{f4307a0d-320e-4d45-b6ac-4819342be752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat">
+      <UniqueIdentifier>{b8bead9a-7807-491a-9294-8976b738e6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat\Headers">
+      <UniqueIdentifier>{a5e85573-e022-44be-9c28-99bf3e961971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AbstractLayers">
+      <UniqueIdentifier>{5ee6fa07-ea7c-47f4-9b8c-48b9faef36dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Clients\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Signatures.h">
+      <Filter>Anticheat\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Signature.h">
+      <Filter>Anticheat\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessSignature.h">
+      <Filter>Anticheat\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSignature.h">
+      <Filter>Anticheat\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfoOriginal.h">
+      <Filter>Anticheat\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWorker.h">
+      <Filter>AbstractLayers</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggeredSignature.h">
+      <Filter>Anticheat\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureEnumeration.h">
+      <Filter>Anticheat\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BrokenRulesDetector.h">
+      <Filter>AbstractLayers</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesBraker.h">
+      <Filter>Clients\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureVerifier.h">
+      <Filter>AbstractLayers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProccessInfoOriginal.h">
+      <Filter>Anticheat\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HashingService.h">
+      <Filter>AbstractLayers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessWorker.h">
+      <Filter>AbstractLayers</Filter>
+    </ClInclude>
+    <ClInclude Include="NonTriggeredSignature.h">
+      <Filter>Anticheat\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>Clients</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Signatures.cpp">
+      <Filter>Anticheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Signature.cpp">
+      <Filter>Anticheat</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessSignature.cpp">
+      <Filter>Anticheat</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSignature.cpp">
+      <Filter>Anticheat</Filter>
+    </ClCompile>
+    <ClCompile Include="RulesBraker.cpp">
+      <Filter>Clients</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

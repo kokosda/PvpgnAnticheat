@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{12009c28-ed59-465e-af8e-bb8fd0b81300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Headers">
+      <UniqueIdentifier>{a104ef06-147f-4e77-b862-1030b27909f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{5488b119-517f-4d40-a5b8-2ece78da63f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{b07d7305-5ad8-4c0d-93b8-57b579eed526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views\Headers">
+      <UniqueIdentifier>{793e2553-cb17-4954-b437-0b8a1474ec64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Handlers">
+      <UniqueIdentifier>{51ccaec4-5d4c-446b-a0fc-61dd2c6e1672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Handlers\Headers">
+      <UniqueIdentifier>{9d627e7e-7c90-4ea0-95ca-26ecddc657c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Control.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Form.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowBase.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Controls\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler.cpp">
+      <Filter>Controls\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickEvent.cpp">
+      <Filter>Controls\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleClickEvent.cpp">
+      <Filter>Controls\Handlers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Control.h">
+      <Filter>Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Form.h">
+      <Filter>Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Views\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowBase.h">
+      <Filter>Views\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler.h">
+      <Filter>Controls\Handlers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Controls\Handlers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickEvent.h">
+      <Filter>Controls\Handlers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleClickEvent.h">
+      <Filter>Controls\Handlers\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
