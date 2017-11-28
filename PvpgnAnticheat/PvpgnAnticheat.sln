@@ -13,7 +13,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PvpgnInfrastructure", "Pvpg
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PvpgnSelfServices", "PvpgnSelfServices\PvpgnSelfServices.vcxproj", "{28FF2E75-C28C-49CC-B58D-309F588FB73F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PvpgnFuckYou", "PvpgnFuckYou\PvpgnFuckYou.vcxproj", "{7F172329-BA9E-42FB-A945-06E5EBDAC699}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PvpgnLogging", "PvpgnLogging\PvpgnLogging.vcxproj", "{7F172329-BA9E-42FB-A945-06E5EBDAC699}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PvpgnUI", "PvpgnUI\PvpgnUI.vcxproj", "{2D79A843-28C8-4742-A791-D9E108051CC6}"
 EndProject
